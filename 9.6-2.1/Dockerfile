@@ -2,8 +2,8 @@ FROM postgres:9.6
 
 MAINTAINER Cameron Taylor <camerontaylor@gmail.com>
 
-ENV PLV8_VERSION=v2.0.3 \
-    PLV8_SHASUM="e190ad0c62897082274b7156de026d0cd2359c21d68983e4108ebf1be57ea1e5  v2.0.3.tar.gz"
+ENV PLV8_VERSION=v2.1.0 \
+    PLV8_SHASUM="207d712e919ab666936f42b29ff3eae413736b70745f5bfeb2d0910f0c017a5c  v2.1.0.tar.gz"
 
 RUN buildDependencies="build-essential \
     ca-certificates \
